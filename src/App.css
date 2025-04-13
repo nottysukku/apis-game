@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 800px; /* optional: fixed max width */
+  width: 100%;
+  margin: 20px auto; /* auto centers it horizontally */
+  padding: 20px;
+  position: relative;
+  left: 600px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center; /* center text inside container */
+}
+
+h1, h2 {
+  color: #333;
+  margin: 0 0 10px;
+}
+
+a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+a:hover {
+  background: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+.cocktail-img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px auto 0;
+  display: block; /* ensures image is centered */
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+.container{
+  position: relative;
+  left: 1px;
+}
+  .cocktail-img {
+    max-width: 100%;
+  }
+
+  a {
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+.container{
+  position: relative;
+  left: 00px;
+}
+  a {
+    padding: 6px 10px;
+    font-size: 0.9rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+}
